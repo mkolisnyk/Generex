@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.mifmif</groupId>
 	<artifactId>generex</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.2</version>
 	<name>Generex</name>
 	<url>https://github.com/mifmif/Generex/tree/master</url>
 	<description>Generex A Java Library for regex to Strings generation</description>
@@ -20,6 +20,11 @@
 			<id>mifmif</id>
 			<name>mifmif</name>
 			<email>mifmif.com@gmail.com</email>
+		</developer>
+		<developer>
+			<id>mkolisnyk</id>
+			<name>mkolisnyk</name>
+			<email>kolesnik.nickolay@gmail.com</email>
 		</developer>
 	</developers>
 
@@ -220,7 +225,7 @@
 				<executions>
 					<execution>
 						<id>sign-artifacts</id>
-						<phase>verify</phase>
+						<phase>deploy</phase>
 						<goals>
 							<goal>sign</goal>
 						</goals>

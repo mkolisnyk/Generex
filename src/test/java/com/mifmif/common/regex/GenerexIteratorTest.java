@@ -1,7 +1,5 @@
 package com.mifmif.common.regex;
 
-import static org.junit.Assert.*;
-
 import java.util.Arrays;
 import java.util.Collection;
 
